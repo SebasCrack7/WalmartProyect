@@ -14,6 +14,8 @@ https://www.kaggle.com/datasets/mikhail1681/walmart-sales?resource=download
 #import a csv document from a shared drive folder
 import pandas as pd
 
+df=pandas.read_csv("Walmart_Sales.csv")
+
 from google.colab import drive
 drive.mount('/content/drive')
 
